@@ -1,16 +1,23 @@
 /* =================== Danh mục phường/xã Đồng Nai (có thể bổ sung) =================== */
 const WARD_DATA_DONG_NAI = {
-  'Thành phố Biên Hòa': ['An Bình','An Hòa','Bửu Hòa','Bửu Long','Bình Đa','Hóa An','Hiệp Hòa','Hố Nai','Long Bình','Long Bình Tân','Phước Tân','Quang Vinh','Quyết Thắng','Tam Hiệp','Tam Hòa','Tân Biên','Tân Hạnh','Tân Hiệp','Tân Hòa','Tân Phong','Tân Tiến','Tân Vạn','Thanh Bình','Trảng Dài','Trung Dũng'],
-  'Thành phố Long Khánh': ['Bảo Vinh','Bảo Quang','Bàu Sen','Suối Tre','Xuân An','Xuân Bình','Xuân Hòa','Xuân Lập','Xuân Tân','Xuân Thanh','Xuân Trung','Phú Bình'],
-  'Huyện Long Thành': ['Long Thành (TT)','An Phước','Bàu Cạn','Bình An','Bình Sơn','Cẩm Đường','Lộc An','Long An','Long Đức','Long Phước','Phước Bình','Phước Thái','Suối Trầu','Tam An','Tân Hiệp'],
-  'Huyện Nhơn Trạch': ['Hiệp Phước','Long Tân','Long Thọ','Phú Đông','Phú Hội','Phú Hữu','Phú Thạnh','Phú Thanh','Phước An','Phước Khánh','Phước Thiền','Vĩnh Thanh'],
-  'Huyện Vĩnh Cửu': ['Vĩnh An (TT)','Bình Hòa','Bình Lợi','Hiếu Liêm','Mã Đà','Phú Lý','Tân An','Tân Bình','Thạnh Phú','Thiện Tân','Trị An'],
-  'Huyện Trảng Bom': ['Trảng Bom (TT)','An Viễn','Bàu Hàm','Bắc Sơn','Bình Minh','Cây Gáo','Đồi 61','Đông Hòa','Giang Điền','Hố Nai 3','Hưng Thịnh','Quảng Tiến','Sông Trầu','Tây Hòa','Thanh Hòa'],
-  'Huyện Thống Nhất': ['Dầu Giây (TT)','Bàu Hàm 2','Gia Kiệm','Gia Tân 1','Gia Tân 2','Gia Tân 3','Hưng Lộc','Lộ 25','Quang Trung','Xuân Thạnh'],
-  'Huyện Cẩm Mỹ': ['Sông Ray (TT)','Lâm San','Long Giao','Nhân Nghĩa','Sông Nhạn','Thừa Đức','Xuân Bảo','Xuân Đông','Xuân Quế'],
-  'Huyện Định Quán': ['Định Quán (TT)','Gia Canh','La Ngà','Ngọc Định','Phú Cường','Phú Hòa','Phú Lợi','Phú Ngọc','Phú Tân','Phú Túc','Phú Vinh','Suối Nho','Thanh Sơn','Túc Trưng'],
-  'Huyện Tân Phú': ['Tân Phú (TT)','Đắc Lua','Đồng Nai','Nam Cát Tiên','Núi Tượng','Phú An','Phú Bình','Phú Điền','Phú Lập','Phú Lộc','Phú Sơn','Phú Thịnh','Phú Trung','Phú Xuân','Tà Lài','Thanh Sơn','Trà Cổ'],
-  'Huyện Xuân Lộc': ['Gia Ray (TT)','Bảo Hòa','Lang Minh','Suối Cát','Suối Cao','Xuân Bắc','Xuân Định','Xuân Hiệp','Xuân Hòa','Xuân Hưng','Xuân Phú','Xuân Tâm','Xuân Thành','Xuân Thọ','Xuân Trường']
+'Phường Trấn Biên','Phường Biên Hòa','Phường Tam Hiệp','Phường Long Bình','Phường Hố Nai','Phường Trảng Dài','Phường Long Hưng','Phường Phước Tân','Phường Tam Phước','Phường Tân Triều',
+'Phường Long Khánh','Phường Bảo Vinh','Phường Xuân Lập','Phường Hàng Gòn','Phường Bình Lộc',
+'Xã Trị An','Xã Tân An','Xã Phú Lý',
+'Xã Trảng Bom','Xã An Viễn','Xã Bàu Hàm','Xã Bình Minh','Xã Hưng Thịnh',
+'Xã Dầu Giây','Xã Gia Kiệm','Xã Thống Nhất',
+'Xã La Ngà','Xã Định Quán','Xã Phú Hòa','Xã Thanh Sơn','Xã Phú Vinh',
+'Xã Tân Phú','Xã Phú Lâm','Xã Tà Lài','Xã Nam Cát Tiên','Xã Đak Lua',
+'Xã Xuân Lộc','Xã Xuân Hòa','Xã Xuân Phú','Xã Xuân Thành','Xã Xuân Định','Xã Xuân Bắc',
+'Xã Cẩm Mỹ','Xã Sông Ray','Xã Xuân Đông','Xã Xuân Quế','Xã Xuân Đường',
+'Xã Long Thành','Xã Phước Thái','Xã Long Phước','Xã Bình An','Xã An Phước',
+'Xã Nhơn Trạch','Xã Đại Phước','Xã Phước An'
+  'Phường Bình Phước','Phường Đồng Xoài','Phường Phước Bình','Phường Phước Long','Phường Bình Long','Phường An Lộc','Phường Minh Hưng','Phường Chơn Thành',
+  'Xã Nha Bích','Xã Tân Quan','Xã Tân Hưng','Xã Tân Khai','Xã Minh Đức',
+  'Xã Lộc Thành','Xã Lộc Ninh','Xã Lộc Hưng','Xã Lộc Tấn','Xã Lộc Thạnh','Xã Lộc Quang',
+  'Xã Tân Tiến','Xã Thiện Hưng','Xã Hưng Phước','Xã Phú Nghĩa','Xã Đa Kia','Xã Đăk Ơ','Xã Bù Gia Mập',
+  'Xã Bình Tân','Xã Long Hà','Xã Phú Riềng','Xã Phú Trung',
+  'Xã Thuận Lợi','Xã Đồng Tâm','Xã Tân Lợi','Xã Đồng Phú',
+  'Xã Phước Sơn','Xã Nghĩa Trung','Xã Bù Đăng','Xã Thọ Sơn','Xã Đak Nhau','Xã Bom Bo'
 };
 const WARD_STORE_KEY = 'dongnai_wards_user_add_v1';
 function loadUserAddedWards(){ try{return JSON.parse(localStorage.getItem(WARD_STORE_KEY)||'{}')}catch{return{}} }
